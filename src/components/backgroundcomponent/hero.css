@@ -1,6 +1,7 @@
 .hero{
     /* background-image: url("../../../public/Images/background.webp"); */
-    background-image: url("https://th.bing.com/th/id/OIP.UDjJ4pA0ZnUzwWv7MBfnfwHaEo?w=289&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    /* background-image: url("https://th.bing.com/th/id/OIP.UDjJ4pA0ZnUzwWv7MBfnfwHaEo?w=289&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"); */
+    background-image: url("../../../public/Images/drugs\ tech.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
@@ -11,9 +12,8 @@
     height: 100vh;
     padding-top: 20%;
     padding-right: 50px;
-    /* color: white; */
-    color: black;
-
+    color: white;
+    /* color: black; */
 }
 
 .hero #heading h3{

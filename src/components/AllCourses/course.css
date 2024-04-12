@@ -71,3 +71,83 @@ font-size: 14px;
     font-weight: 500;
     color: black;
 }
+
+.online{
+    text-align: center;
+}
+
+.online .box{
+    box-shadow: 5px 25px -2px black;
+    background-color: white;
+    padding: 30px 20px;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+.online .img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+}
+.online img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.online h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.online span{
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color:cadetblue;
+    border-radius: 5px;
+
+}
+.online .box .show{
+opacity: 0;
+}
+
+.online .box:hover{
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.online .box:hover .shadow{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.online .box:hover h1{
+    color: whitesmoke;
+}
+
+.bgimg{
+
+    /* background-image: url("../../../public/Images/drugs\ tech.jpg"); */
+    background-image: url("../../../public/Images/allcoursesbg.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    padding-top: 30%;
+    padding-right: 50px;
+    /* color: white; */
+    color: black;
+    text-align: center;
+
+} 

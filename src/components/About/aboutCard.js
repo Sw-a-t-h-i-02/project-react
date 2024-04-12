@@ -11,9 +11,10 @@ const AboutCard = () => {
   return (
     <>
       <section className='aboutHome'>
+        <div className="aboutbgimg"></div>
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='https://th.bing.com/th/id/OIP.RXnYb-xRuf4qUglhhafjlwHaFR?w=237&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' alt=''/>
+            <img src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/63076831768815001d0b2344.jpg" alt=""/>
           </div>
           <div className='right row'>
             < Title subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />

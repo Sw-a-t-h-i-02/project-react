@@ -49,7 +49,7 @@ export const homeAbout = [
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover:"https://www.tezu.ernet.in/dedu/faculty/img/nil.jpg",
           name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -63,7 +63,7 @@ export const homeAbout = [
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover: "https://www.waldenu.edu/media/4377/seo-608-bs-134359994-1200x675",
           name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -77,7 +77,7 @@ export const homeAbout = [
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsU2HJUm-rIJLGuKncKY6nf7fxsDXC8XobrHKqkBB6A&s",
           name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -91,7 +91,7 @@ export const homeAbout = [
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyw67woSAlWIuKm8wgEDMymE9Nza0doWks9UZkrwl2Rg&s",
           name: "by Prabin Thapa Mager",
           totalTime: "20 lectures (20 hrs)",
         },
@@ -105,7 +105,7 @@ export const homeAbout = [
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSetdf3mtaa7Z3VN3fGwQqCfAbFERHcYm1Z5b9sOURaOw&s",
           name: "by Sunil Bishowkaram",
           totalTime: "100 lectures (150 hrs)",
         },
@@ -119,7 +119,7 @@ export const homeAbout = [
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5V9q-Bm7ErIdsL91aRcQdloQ_Ye5Fbo4QQSy875m6mIJAqkiGxT4zq2ruOU-LBByWEgU&usqp=CAU",
           name: "by Sunil Bishowkaram",
           totalTime: "200 lectures (300 hrs)",
         },
@@ -133,7 +133,7 @@ export const homeAbout = [
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.",
+          dcover: "https://www.tezu.ernet.in/dedu/faculty/img/nil.jpg",
           name: "by Price",
           totalTime: "20 lectures (50 hrs)",
         },
@@ -147,7 +147,7 @@ export const homeAbout = [
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSetdf3mtaa7Z3VN3fGwQqCfAbFERHcYm1Z5b9sOURaOw&s",
           name: "by Petter",
           totalTime: "80 lectures (200 hrs)",
         },
@@ -161,7 +161,7 @@ export const homeAbout = [
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "https://th.bing.com/th/id/OIP.wrBmq1c1Vrw0PmzjpmqH6wHaEH?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          dcover:"https://www.waldenu.edu/media/4377/seo-608-bs-134359994-1200x675",
           name: "by Petter",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -198,49 +198,49 @@ export const homeAbout = [
       course: "15 Courses",
     },
     {
-      cover: "./images/courses/online/o5.png",
+      cover: "./Images/o5.png",
       hoverCover: "./images/courses/online/o5.1.png",
       courseName: "Software Engineering",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o6.png",
+      cover: "./Images/o6.png",
       hoverCover: "./images/courses/online/o6.1.png",
       courseName: "Information Software",
       course: "60 Courses",
     },
     {
-      cover: "./images/courses/online/o7.png",
+      cover: "./Images/o7.png",
       hoverCover: "./images/courses/online/o7.1.png",
       courseName: "Health & Fitness",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o8.png",
+      cover: "./Images/o8.png",
       hoverCover: "./images/courses/online/o8.1.png",
       courseName: "Marketing",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o9.png",
+      cover: "./Images/o9.png",
       hoverCover: "./images/courses/online/o9.1.png",
       courseName: "Graphic Design",
       course: "80 Courses",
     },
     {
-      cover: "./images/courses/online/o10.png",
+      cover: "./Images/o10.png",
       hoverCover: "./images/courses/online/o10.1.png",
       courseName: "Music",
       course: "120 Courses",
     },
     {
-      cover: "./images/courses/online/o11.png",
+      cover: "./Images/o11.png",
       hoverCover: "./images/courses/online/o11.1.png",
       courseName: "Business Administration",
       course: "17 Courses",
     },
     {
-      cover: "./images/courses/online/o12.png",
+      cover: "./Images/o12.png",
       hoverCover: "./images/courses/online/o12.1.png",
       courseName: "Web Management",
       course: "17 Courses",
@@ -248,42 +248,42 @@ export const homeAbout = [
   ]
   export const team = [
     {
-      cover: "./images/team/t1.webp",
+      cover: "./Images/t1.webp",
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t2.webp",
+      cover: "./Images/t2.webp",
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t3.webp",
+      cover: "./Images/t3.webp",
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t4.webp",
+      cover: "./Images/t4.webp",
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t5.webp",
+      cover: "./Images/t5.webp",
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t6.webp",
+      cover: "./Images/t6.webp",
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t7.webp",
+      cover: "./Images/t7.webp",
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
-      cover: "./images/team/t8.webp",
+      cover: "./Images/t8.webp",
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
@@ -344,7 +344,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b1.webp",
+      cover: "../Images/b1.webp",
     },
     {
       id: 2,
@@ -353,7 +353,7 @@ export const homeAbout = [
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b2.webp",
+      cover: "../Images/b2.webp",
     },
     {
       id: 3,
@@ -362,7 +362,7 @@ export const homeAbout = [
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b3.webp",
+      cover: "../Images/b3.webp",
     },
     {
       id: 4,
@@ -371,7 +371,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b4.webp",
+      cover: "../Images/b4.webp",
     },
     {
       id: 5,
@@ -380,7 +380,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b5.webp",
+      cover: "../Images/b5.webp",
     },
     {
       id: 6,
@@ -389,7 +389,7 @@ export const homeAbout = [
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b6.webp",
+      cover: "../Images/b6.webp",
     },
   ]
   export const testimonal = [

@@ -5,6 +5,11 @@ import "./App.css"
 import Home from './components/backgroundcomponent/home'
 import About from './components/About/About'
 import CourseHome from './components/AllCourses/CourseHome'
+import Team from './components/Team/Team'
+import Price from './components/Pricing/Price'
+import Blog from './components/Blog/Blog'
+import Contact from './components/Contacts/Contact'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -18,7 +23,13 @@ const App = () => {
       <Route path='/' Component={Home}/>
       <Route path='/about' Component={About}/>
       <Route path='/allCourses' Component={CourseHome}/>
-      </Routes>
+      <Route path='/team'  Component={Team}/>
+      <Route path='/pricing' Component={Price}/>
+      <Route path='/journal' Component={Blog}/>
+      <Route path='/contact' Component={Contact}/>
+    
+            </Routes>
+            <Footer/>
       </Router>
     </div>
   )

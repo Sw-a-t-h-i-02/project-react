@@ -1,16 +1,18 @@
 import React from 'react'
+import Title from '../Title/title'
 import { coursesCard } from '../dummydata'
-import "./course.css"
-const CourseCard = () => {
-    console.log(coursesCard,"hello");
+import OnlineCourses from '../AllCourses/OnlineCourses'
+
+const HAbout = () => {
   return (
-    <section className='coursesCard'>
-        <div className='bgimg'>
-            
-        </div>
-        <div  className='container grid2'>
+    <>
+    <section className='homeAbout' >
+        <div className='container'>
+            <Title subtitle="OUR COURSES " title="Explore Our Popular Online Courses"/>
+        <div className='coursesCard'>
+        <div  className='grid2'>
             {
-                coursesCard.map((value)=>{
+                coursesCard.slice(0,3).map((value)=>{
                     return(
                     <div className='items'>
                         <div className='content flex'>
@@ -57,10 +59,12 @@ const CourseCard = () => {
             }
         </div>
         
+    </div>
+        </div>
     </section>
+    <OnlineCourses/>
+    </>
   )
 }
 
-export default CourseCard
-
-
+export default HAbout

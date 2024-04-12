@@ -1,0 +1,41 @@
+.testimonal .items{
+    padding: 30px;
+    transition: 0.5s;
+    
+}
+.testimonal .img{
+    position: relative;
+
+}
+.testimonal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testimonal i{
+    position: absolute;
+    left: 60px;
+    background-color: cadetblue;
+    color: white;
+}
+.testimonal .name{
+    margin: 25px;
+}
+.testimonal .name h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.testimonal .name span{
+color: cadetblue;
+}
+.testimonal p{
+    margin-top: 20px;
+    color: cadetblue;
+    transition: 0.5s;
+}
+.testimonal .items:hover{
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+}
+ 
