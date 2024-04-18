@@ -23,11 +23,11 @@ const Contact = () => {
                   <div className='items grid2'>
                     <div className='box'>
                       <h4>ADDRESS:</h4>
-                      <p>Kukatpally , Phase1 , road number3 , 3rd building 2nd floor</p>
+                      <p>Kukatpally,Phase1,road number3,3rd building 2nd floor</p>
                     </div>
                     <div className='box'>
                       <h4>Email:</h4>
-                      <p>Academia@gmail.com</p>
+                      <p>khanacademy@gmail.com</p>
                     </div>
                     <div className='box'>
                       <h4>Phone:</h4>

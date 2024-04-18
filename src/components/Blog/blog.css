@@ -16,7 +16,8 @@
 
 }
 .blog h1:hover{
-    color: cadetblue;
+    
+    color: black;
     cursor: pointer;
 }
 
@@ -24,17 +25,20 @@
     text-transform: uppercase;
     font-weight: 500;
     color: cadetblue;
+    
 }
 .blog span label{
     margin-left: 10px;
-    color: cornflowerblue;
+   
+    color: black;
     font-size: 14px;
 }
 .blog span:nth-last-child(1) label{
-    color: cadetblue;
+
+    color: black;
 }
 .blog p{
-color:cornflowerblue ;
+color:black ;
 }
 
 
@@ -51,7 +55,7 @@ color:cornflowerblue ;
     height: 100%;
     padding-top: 30%;
     padding-right: 50px;
-    /* color: white; */
+   
     color: black;
     text-align: center;
 }

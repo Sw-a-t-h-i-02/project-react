@@ -16,7 +16,9 @@
     position: absolute;
     left: 60px;
     background-color: cadetblue;
-    color: white;
+    /* color: white; */
+    color: black;
+
 }
 .testimonal .name{
     margin: 25px;
@@ -26,15 +28,17 @@
     margin-bottom: 5px;
 }
 .testimonal .name span{
-color: cadetblue;
+/* color: cadetblue; */
+color: blueviolet;
+font-size: x-large;
 }
 .testimonal p{
     margin-top: 20px;
-    color: cadetblue;
+    color: black;
     transition: 0.5s;
 }
 .testimonal .items:hover{
-    background-color: aqua;
+    background-color: cadetblue;
     color: white;
     cursor: pointer;
 }

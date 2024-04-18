@@ -27,7 +27,6 @@ const App = () => {
       <Route path='/pricing' Component={Price}/>
       <Route path='/journal' Component={Blog}/>
       <Route path='/contact' Component={Contact}/>
-    
             </Routes>
             <Footer/>
       </Router>
