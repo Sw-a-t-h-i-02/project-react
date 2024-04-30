@@ -1,6 +1,7 @@
 import React from 'react'
 import Back from '../Back/Back'
 import "./contact.css"
+// import { Link } from 'react-router-dom'
 
 const Contact = () => {
    const map='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d121772.88523993672!2d78.3384576!3d17.488281600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712586425574!5m2!1sen!2sin" ,referrerpolicy="no-referrer-when-downgrade';
@@ -19,7 +20,7 @@ const Contact = () => {
                 </div>
                 <div className='right row'>
                   <h1>Contact Us</h1>
-                  <p>nsdcblwuehqoilnv ncbjbhjduyrwpicnmx vnjhfiawoncmxv ncbvxncdjfhs</p>
+                  <p>Contact us for more details and information.</p>
                   <div className='items grid2'>
                     <div className='box'>
                       <h4>ADDRESS:</h4>
@@ -45,8 +46,10 @@ const Contact = () => {
                 </textarea>
                 <button className='primary-btn'>SEND MESSAGE</button>
                 </form>
-             <h3>FOLLOW US HERE</h3>
-             <span>FACEBOOK TWITTER INSTAGRAM</span>
+             {/* <h3>FOLLOW US HERE</h3> */}
+             {/* <span>FACEBOOK TWITTER INSTAGRAM</span> */}
+             {/* <Link to={"https://www.linkedin.com/feed/?trk=404_page"} className='links'><i className='fab fa-linkedin icon'></i></Link>
+             <Link to={"https://github.com/"}  className='links'><i className='fab fa-github icon'></i></Link> */}
             </div>
             </div>
         </section>

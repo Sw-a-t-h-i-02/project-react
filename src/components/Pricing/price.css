@@ -35,10 +35,12 @@ border-radius: 5px;
   }
  .faq h2{
   font-weight: 500;
+  color: blue;
  }
 
  .faq p{
   padding: 20px;
+  font-size: larger;
  }
 
   .faq .accordion{

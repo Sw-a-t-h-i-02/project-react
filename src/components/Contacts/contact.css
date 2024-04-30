@@ -27,6 +27,7 @@
 }
 .contact .flexSB input :nth-child(1){
     margin-right: 10px;
+   
 }
 .contact h3{
     margin-top: 20px;
@@ -35,10 +36,11 @@
 
 }
 .contact span{
-    color: cadetblue;
+    color: black;
     font-weight: 600;
     font-size: 15px;
-    word-spacing: 5px
+    word-spacing: 5px;
+    background-color:black;
 }
 
 
@@ -58,6 +60,8 @@
     color: black;
     text-align: center;
 }
+
+
 
 @media screen  and (max-width:768px){
     .contact .conatiner{

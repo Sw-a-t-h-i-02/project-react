@@ -3,6 +3,8 @@
     padding: 0;
     /* color: black; */
     color: white;
+    position: sticky;
+
 
 }
 
@@ -13,12 +15,16 @@
 
 .head .icon{
     margin-left: 10px;
+    font-size: xx-large;
+   
+    
 }
 
 header{
     background-color:dimgray;
     margin: 20px 30px;
     padding-top: 2px;
+   
 }
 
 header ul{
@@ -28,6 +34,8 @@ header ul{
 
 header li{
     margin-right: 40px;
+    font-size: large;
+   
 }
 
 header ul li a{
@@ -35,11 +43,15 @@ header ul li a{
     font-weight: 500;
     transition: 0.5sec;
     color: black;
+    font-size: large;
+   
 }
 
 header ul li a:hover{
 
     color:cadetblue;
+   
+  
 }
 
 .start{
