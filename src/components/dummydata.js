@@ -417,3 +417,4 @@ export const homeAbout = [
       cover: "./Images/t3.webp",
     },
   ]
+  

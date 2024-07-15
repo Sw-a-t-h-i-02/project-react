@@ -2,7 +2,7 @@ import React from 'react'
 import "./hero.css"
 import Title from '../Title/title'
 import { Link } from 'react-router-dom';
-import {Route} from 'react-router-dom'
+
 
 
 
