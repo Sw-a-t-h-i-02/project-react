@@ -91,7 +91,7 @@
 } 
 
 
-@media  screen and (max-width:768px){
+/* @media  screen and (max-width:768px){
     .aboutHome{
         margin-top: 80%;
     }
@@ -103,5 +103,67 @@
     }
     .awrapper{
         height: 50vh;
+    }
+} */
+
+/* Existing styles here */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .aboutHome .right {
+        padding: 60px 30px; /* Adjusted padding for medium screens */
+    }
+
+    .awrapper h1 {
+        font-size: 40px; /* Adjusted font size */
+    }
+
+    .awrapper h3 {
+        font-size: 18px; /* Adjusted font size */
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .aboutHome {
+        margin-top: 80%; /* Already defined */
+    }
+
+    .aboutHome .container {
+        flex-direction: column-reverse; /* Already defined */
+    }
+
+    .aboutHome .row {
+        width: 100%; /* Already defined */
+    }
+
+    .awrapper {
+        height: 50vh; /* Already defined */
+    }
+
+    .aboutHome .left img {
+        width: 100%; /* Adjusted for smaller screens */
+    }
+
+    .aboutHome .item h2 {
+        font-size: 18px; /* Adjusted font size */
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .aboutHome .right {
+        padding: 40px 20px; /* Further adjusted padding */
+    }
+
+    .awrapper h1 {
+        font-size: 30px; /* Further adjusted font size */
+    }
+
+    .awrapper h3 {
+        font-size: 16px; /* Further adjusted font size */
+    }
+
+    .aboutHome img {
+        width: 50px; /* Adjusted size */
+        height: 50px; /* Adjusted size */
     }
 }

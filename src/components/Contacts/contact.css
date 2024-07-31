@@ -63,7 +63,7 @@
 
 
 
-@media screen  and (max-width:768px){
+/* @media screen  and (max-width:768px){
     .contact .conatiner{
         flex-direction: column;
     }
@@ -74,4 +74,58 @@
 width: 100%;
     }
     
+} */
+
+/* Existing styles here */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .contact h1 {
+        font-size: 28px; /* Adjusted for smaller screens */
+    }
+
+    .contact p {
+        margin: 20px 0; /* Adjusted for spacing */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact .right {
+        padding: 30px; /* Adjusted padding for smaller screens */
+    }
+
+    .contact h1 {
+        font-size: 24px; /* Further adjustment */
+    }
+
+    .contact .box p {
+        font-size: 15px; /* Adjusted font size */
+    }
+
+    .contact textarea,
+    .contact input {
+        padding: 12px; /* Adjusted input padding */
+    }
+
+    .contact iframe {
+        height: 50vh; /* Adjusted height for smaller screens */
+    }
+
+    .contact .flexSB input:nth-child(1) {
+        margin-right: 5px; /* Adjusted margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact h3 {
+        font-size: 18px; /* Further adjustment */
+    }
+
+    .contact span {
+        font-size: 14px; /* Adjusted font size */
+    }
+
+    .contact .right {
+        padding: 20px; /* Further adjusted padding */
+    }
 }

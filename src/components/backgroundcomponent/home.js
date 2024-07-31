@@ -9,17 +9,19 @@ import HAbout from './HAbout'
 import Test from './Testing/Test'
 import Hblog from './Hblog'
 import Hprice from './Hprice'
+import CourseCard from '../AllCourses/CourseCard'
 
 const Home = () => {
   return (
    <>
 
-    <Hero />
-    <AboutCard />
+    <Hero/>
+    {/* <AboutCard /> */}
     <HAbout />
     <Test/>
     <Hblog/>
     <Hprice/>
+    {/* <CourseCard/> */}
    
    </>
   )

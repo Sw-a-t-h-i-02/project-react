@@ -72,7 +72,6 @@ color: cadetblue;
 margin-right: 5px;
 }
 
-
 footer .items{
 
     margin-bottom: 30px;
@@ -116,3 +115,66 @@ footer .last i{
     background-color: cadetblue;
     color: black;
 }
+
+/* Existing styles here */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .newletter h1 {
+        font-size: 28px; /* Adjusted for smaller screens */
+    }
+
+    footer .container {
+        grid-template-columns: 2fr 2fr 2fr; /* Adjust grid for smaller screens */
+    }
+
+    footer h3 {
+        margin-bottom: 30px; /* Adjusted for spacing */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .newletter {
+        padding: 30px 0; /* Adjusted padding for smaller screens */
+    }
+
+    .newletter .left,
+    .newletter .right {
+        padding-right: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .newletter input {
+        padding: 15px; /* Adjusted input padding */
+    }
+
+
+    footer .container {
+        grid-template-columns: 1fr 1fr; /* Further adjust grid for smaller screens */
+    }
+
+    footer .items img {
+        width: 40px; /* Adjusted image size */
+        height: 40px; /* Adjusted image size */
+    }
+
+    footer h4 {
+        font-size: 14px; /* Adjusted font size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .newletter h1 {
+        font-size: 24px; /* Further adjustment */
+    }
+
+    footer .last i {
+        width: 40px; /* Adjusted icon size */
+        font-size: 18px; /* Adjusted font size */
+    }
+
+    footer .logo p {
+        font-size: 12px; /* Adjusted font size */
+    }
+}
+
+

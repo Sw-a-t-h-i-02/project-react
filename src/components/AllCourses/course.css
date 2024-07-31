@@ -151,3 +151,63 @@ opacity: 0;
     text-align: center;
 
 } 
+
+/* Existing styles here */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .coursesCard .text h1 {
+        font-size: 28px; /* Adjusted for smaller screens */
+    }
+
+    .online h1 {
+        font-size: 18px; /* Adjusted for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .coursesCard {
+        padding: 30px 0; /* Adjusted padding */
+    }
+
+    .coursesCard .items {
+        padding: 20px; /* Adjusted padding */
+    }
+
+    .coursesCard .text h1 {
+        font-size: 24px; /* Further adjustment */
+    }
+
+    .online h1 {
+        font-size: 16px; /* Further adjustment */
+    }
+
+    .online .box {
+        padding: 20px; /* Adjusted padding */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .coursesCard .img {
+        width: 60px; /* Adjusted size */
+        height: 60px; /* Adjusted size */
+    }
+
+    .coursesCard .details .dimg img {
+        width: 40px; /* Adjusted size */
+        height: 40px; /* Adjusted size */
+    }
+
+    .coursesCard .rate i {
+        font-size: 12px; /* Adjusted font size */
+    }
+
+    .coursesCard .price {
+        padding: 8px; /* Adjusted padding */
+    }
+
+    .online span {
+        font-size: 14px; /* Adjusted font size */
+        padding: 5px 10px; /* Adjusted padding */
+    }
+}

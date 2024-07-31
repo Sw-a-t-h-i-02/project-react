@@ -72,3 +72,59 @@ margin: 5px;
     color: black;
     text-align: center;
 }
+
+
+/* Existing styles here */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .team .details h2 {
+        font-size: 18px; /* Adjusted for smaller screens */
+    }
+
+    .team .details p {
+        font-size: 14px; /* Adjusted for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team .items {
+        flex-direction: column; /* Adjust layout for smaller screens */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .team .details {
+        padding: 20px; /* Adjusted padding */
+    }
+
+    .team .details h2 {
+        font-size: 16px; /* Further adjustment */
+    }
+
+    .team .details p {
+        font-size: 12px; /* Further adjustment */
+    }
+
+    .overlay {
+        padding: 10px; /* Adjust padding for overlay */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .team img {
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .overlay i {
+        margin: 3px; /* Adjust margin for icons */
+    }
+
+    .team .items {
+        margin: 10px; /* Add margin for spacing */
+    }
+
+    .teambgimg {
+        padding-top: 20%; /* Adjust for smaller screens */
+        padding-right: 20px; /* Adjust for smaller screens */
+    }
+}

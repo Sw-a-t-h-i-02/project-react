@@ -68,3 +68,68 @@ border-radius: 5px;
   /* color: black;
   text-align: center; */
  /* }  */
+
+ /* Existing styles here */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .price h1 {
+    font-size: 40px; /* Adjusted for smaller screens */
+  }
+
+  .price p {
+    margin: 30px 0; /* Adjusted for smaller screens */
+  }
+
+  .faq h2 {
+    font-size: 22px; /* Adjusted for smaller screens */
+  }
+
+  .faq p {
+    font-size: medium; /* Adjusted for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price .items {
+    padding: 30px; /* Adjusted padding for smaller screens */
+  }
+
+  .price h1 {
+    font-size: 30px; /* Further adjustment */
+  }
+
+  .faq .container {
+    max-width: 90%; /* Use more width on smaller screens */
+  }
+
+  .faq .box {
+    margin-bottom: 15px; /* Adjusted for spacing */
+  }
+
+  .faq p {
+    padding: 15px; /* Adjusted padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .price h1 {
+    font-size: 24px; /* Further adjustment */
+  }
+
+  .price p {
+    font-size: 14px; /* Adjusted font size */
+  }
+
+  .faq h2 {
+    font-size: 20px; /* Further adjustment */
+  }
+
+  .faq p {
+    font-size: small; /* Further adjustment */
+  }
+
+  .faq button {
+    padding: 10px; /* Added padding for buttons */
+  }
+}

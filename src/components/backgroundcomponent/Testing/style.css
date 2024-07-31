@@ -1,45 +1,88 @@
-.testimonal .items{
+.testimonal .items {
     padding: 30px;
     transition: 0.5s;
-    
 }
-.testimonal .img{
-    position: relative;
 
+.testimonal .img {
+    position: relative;
 }
-.testimonal img{
+
+.testimonal img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.testimonal i{
+
+.testimonal i {
     position: absolute;
     left: 60px;
     background-color: cadetblue;
-    /* color: white; */
     color: black;
-
 }
-.testimonal .name{
+
+.testimonal .name {
     margin: 25px;
 }
-.testimonal .name h2{
+
+.testimonal .name h2 {
     font-size: 20px;
     margin-bottom: 5px;
 }
-.testimonal .name span{
-/* color: cadetblue; */
-color: blueviolet;
-font-size: x-large;
+
+.testimonal .name span {
+    color: blueviolet;
+    font-size: x-large;
 }
-.testimonal p{
+
+.testimonal p {
     margin-top: 20px;
     color: black;
     transition: 0.5s;
 }
-.testimonal .items:hover{
+
+.testimonal .items:hover {
     background-color: cadetblue;
     color: white;
     cursor: pointer;
 }
- 
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .testimonal .items {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .testimonal .name h2 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .testimonal .name span {
+        font-size: large; /* Adjust font size */
+    }
+
+    .testimonal i {
+        left: 30px; /* Adjust position */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .testimonal .items {
+        padding: 15px; /* Further reduce padding */
+    }
+
+    .testimonal .name h2 {
+        font-size: 16px; /* Further adjust font size */
+    }
+
+    .testimonal .name span {
+        font-size: medium; /* Further adjust font size */
+    }
+
+    .testimonal i {
+        left: 20px; /* Adjust position for smaller screens */
+    }
+
+    .testimonal p {
+        font-size: 14px; /* Adjust paragraph font size */
+    }
+}

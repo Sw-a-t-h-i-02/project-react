@@ -1,6 +1,6 @@
-.hero{
-    /* background-image: url("../../../public/Images/background.webp"); */
-    /* background-image: url("https://th.bing.com/th/id/OIP.UDjJ4pA0ZnUzwWv7MBfnfwHaEo?w=289&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"); */
+/* .hero{
+    background-image: url("../../../public/Images/background.webp");
+    background-image: url("https://th.bing.com/th/id/OIP.UDjJ4pA0ZnUzwWv7MBfnfwHaEo?w=289&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7");
     background-image: url("../../../public/Images/drugs\ tech.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -13,7 +13,7 @@
     padding-top: 20%;
     padding-right: 50px;
     color: white;
-    /* color: black; */
+
 }
 
 .hero #heading h3{
@@ -43,3 +43,165 @@
         width:100%;
     }
 } 
+
+Existing styles here
+
+Media Queries
+@media screen and (max-width: 1200px) {
+    .hero {
+        padding-top: 25%;
+         Adjusted padding for smaller screens
+    }
+
+    .hero #heading h3 {
+        font-size: 28px; 
+        Adjusted font size
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .margin {
+        height: 40vh;
+         Already defined
+    }
+
+    .hero {
+        background-position: right; 
+        Already defined
+        padding-top: 50%; 
+        Already defined
+        height: 80vh;
+         Already defined
+    }
+
+    .hero .row {
+        width: 100%; 
+        Already defined
+    }
+
+    .hero #heading h3 {
+        font-size: 24px; 
+        Further adjustment for smaller screens
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 60vh; 
+        Further adjustment for very small screens
+        padding-top: 40%; 
+        Adjusted padding
+    }
+
+    .hero #heading h3 {
+        font-size: 20px; 
+        Further adjustment for smaller screens 
+    }
+} */
+
+
+/* .hero {
+    padding: 60px 0;
+    background: #f7f7f7;
+    background-image: url("../../../public/Images/drugs\ tech.jpg");
+    background-size: cover;
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .primary-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .primary-btn i {
+    margin-left: 10px;
+  }
+  
+  .margin {
+    height: 50px;
+  }
+   */
+
+
+
+   .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    /* background-image: url("../../../public/Images/drugs tech.jpg"); */
+    background-image: url("../../../public/Images/back.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     color: #fff; 
+    /* color: black; */
+    /* margin-top: 10px; Remove any default margin */
+    padding-bottom: 190px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+  
+  .button-container {
+    /* margin-top: 20px; */
+    margin-top: 10px;
+  }
+  
+  .primary-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border: black;
+  }
+  
+  .primary-btn i {
+    margin-left: 10px;
+  }
+  
+  .margin {
+    height: 50px;
+  }
+  

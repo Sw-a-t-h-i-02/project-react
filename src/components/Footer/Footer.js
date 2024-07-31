@@ -127,7 +127,7 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h2>KHAN ACADEMY</h2>
+            <h2>Swathi ACADEMY</h2>
             <span>ONLINE EDUCATION & LEARNING</span>
             <p>Study websites are very useful and beneficial for students worldwide. From grasping more information and saving time to assessing one's learning, there are several benefits of study websites for students.</p>
 
